@@ -1,0 +1,62 @@
+.rodape {
+    display: block;
+    margin: 10em 0;
+}
+
+.titulo__rodape {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.descrição__rodape {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    padding: 2em 0;
+}
+
+.botões__rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.input__rodape {
+    background-color: transparent;
+    border: 1px solid var(--cor-secundaria);
+    color: var(--branco);
+    border-radius: 10px;
+    padding: 0 7em 0 1em;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.botão__rodape{
+    text-decoration: none;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 10px;
+    padding: 0.75em;
+    background: var(--cor-terciaria);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 1em;
+}
+
+.descrição__rodape-final {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    padding: 2em 0;
+}
