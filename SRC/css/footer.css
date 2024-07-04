@@ -1,9 +1,9 @@
-.rodape {
+.footer {
     display: block;
     margin: 10em 0;
 }
 
-.titulo__rodape {
+.title-footer {
     display: flex;
     justify-content: center;
     font-family: var(--fonte-principal);
@@ -12,7 +12,7 @@
     color: #000000;
 }
 
-.descrição__rodape {
+.describe-footer {
     display: flex;
     justify-content: center;
     font-family: var(--fonte-principal);
@@ -22,12 +22,12 @@
     padding: 2em 0;
 }
 
-.botões__rodape {
+.bottons-footer {
     display: flex;
     justify-content: center;
 }
 
-.input__rodape {
+.input-footer {
     background-color: transparent;
     border: 1px solid var(--cor-secundaria);
     color: var(--branco);
@@ -38,7 +38,7 @@
     font-weight: 400;
 }
 
-.botão__rodape{
+.button-footer {
     text-decoration: none;
     border: 1px solid var(--cor-terciaria);
     border-radius: 10px;
@@ -51,7 +51,7 @@
     margin: 0 1em;
 }
 
-.descrição__rodape-final {
+.describe-footer-end {
     display: flex;
     justify-content: center;
     font-family: var(--fonte-principal);
