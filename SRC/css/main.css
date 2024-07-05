@@ -18,7 +18,7 @@
     font-family: var(--soucer-first);
     font-size: 48px;
     font-weight: 600;
-    color: var(--color-balack);
+    color: var(--color-black);
     padding: 1em 0;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
     font-family: var(--soucer-first);
     font-size: 18px;
     font-weight: 500;
-    color: var(--color-balack);
+    color: var(--color-black);
     padding: 1em 0;
 }
 
@@ -80,9 +80,6 @@
     color: var(--color-third);
     display: flex;
     justify-content: center;
-}
-
-.text-wave {
     border: 1px solid transparent;
     border-radius: 20px;
     padding: 0.75em;
@@ -166,7 +163,7 @@
     justify-content: center;
     text-align: center;
     padding-top: 1em;
-    color: var(--color-balack);
+    color: var(--color-black);
 }
 
 .container-testimony {

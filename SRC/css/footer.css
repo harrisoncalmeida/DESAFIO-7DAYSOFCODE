@@ -9,7 +9,7 @@
     font-family: var(--soucer-first);
     font-size: 36px;
     font-weight: 600;
-    color: var(--color-balack);
+    color: var(--color-black);
 }
 
 .describe-footer {
@@ -59,4 +59,19 @@
     font-weight: 400;
     color: var(--color-second);
     padding: 2em 0;
+}
+
+.input-footer:focus, .button-footer:focus {
+    color: var(--color-black);
+    outline: 2px solid var(--color-third);
+    outline-offset: 2px;
+}
+
+.button-footer {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-footer:hover {
+    background-color: var(--color-first);
+    color: var(--color-third);
 }
