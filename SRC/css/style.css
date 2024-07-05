@@ -4,12 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 /* Import style */
-@import url('./SRC/css/header.css');
-@import url('./SRC/css/banner.css');
-@import url('./SRC/css/informativo.css');
-@import url('./SRC/css/descricao.css');
-@import url('./SRC/css/depoimento.css');
-@import url('./SRC/css/rodape.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
 
 
 :root {
