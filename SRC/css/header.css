@@ -17,23 +17,26 @@
 }
 
 .header-title {
-    font-family: var(--fonte-principal);
+    font-family: var(--soucer-first);
     font-size: 18px;
     font-weight: 500;
-    color: var(--cor-quartenaria);
+    color: var(--color-fourth);
     padding-left: 0.5em;
 }
 
 .lists {
     display: flex;
     justify-content: center;
+    list-style: none; /* Remoção de bullets das listas */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
 }
 
 .list {
-    font-family: var(--fonte-principal);
+    font-family: var(--soucer-first);
     font-size: 16px;
     font-weight: 500;
-    color: var(--cor-secundaria);
+    color: var(--color-second);
     padding: 0 1em;
     text-decoration: none;
 }
@@ -43,28 +46,36 @@
     justify-content: flex-end;
 }
 
-.button-enter {
-    margin-right: 0.5em;
+.button-enter,
+.button-register {
     text-decoration: none;
-    border: 1px solid var(--cor-principal);
     border-radius: 10px;
     padding: 0.75em;
-    background: var(--cor-principal);
-    color: var(--cor-quartenaria);
-    font-family: var(--fonte-principal);
+    font-family: var(--soucer-first);
     font-size: 16px;
     font-weight: 500;
+    transition: background 0.3s ease; /* Adiciona transição suave */
+}
+
+.button-enter {
+    margin-right: 0.5em;
+    border: 1px solid var(--color-first);
+    background: var(--color-first);
+    color: var(--color-fourth);
+}
+
+.button-enter:hover {
+    background: darken(var(--color-first), 10%); /* Exemplo de efeito hover */
 }
 
 .button-register {
     margin-right: 5em;
-    text-decoration: none;
-    border: 1px solid var(--cor-terciaria);
-    border-radius: 10px;
-    padding: 0.75em;
-    background: var(--cor-terciaria);
-    color: var(--cor-principal);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 500;
+    border: 1px solid var(--color-third);
+    background: var(--color-third);
+    color: var(--color-first);
+}
+
+.button-register:hover {
+    color: var(--color-black);
+    background: darken(var(--color-third), 10%); /* Exemplo de efeito hover */
 }

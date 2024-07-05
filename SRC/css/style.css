@@ -10,11 +10,12 @@
 
 
 :root {
-    --cor-principal: #ffffff;
-    --cor-secundaria: #667085;
-    --cor-terciaria: #8E2424;
-    --cor-quartenaria: #3A404E;
-    --cor-quinternaria: rgba(142, 36, 36, 0.05);
-    --cor-sextanaria: #EAECF0;
-    --fonte-principal: 'Inter', sans-serif;
+    --color-first: #ffffff;
+    --color-second: #667085;
+    --color-third: #8E2424;
+    --color-fourth: #3A404E;
+    --color-fifth: rgba(142, 36, 36, 0.05);
+    --color-sixth: #EAECF0;
+    --color-black: #000000;
+    --soucer-first: 'Inter', sans-serif;
 }
