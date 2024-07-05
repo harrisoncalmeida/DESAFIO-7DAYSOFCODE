@@ -1,5 +1,4 @@
 /* Section first */
-
 .banner-title {
     padding: 4.6em 0;
     display: block;
@@ -36,7 +35,6 @@
 }
 
 /* Section second */
-
 .banner-informative {
     display: flex;
     justify-content: space-around;
@@ -72,7 +70,6 @@
 }
 
 /* Section third */
-
 .text-wave {
     font-family: var(--soucer-first);
     font-size: 14px;
@@ -135,7 +132,6 @@
 }
 
 /* Section fourth */
-
 .banner-testimony {
     border: 1px solid transparent;
     border-radius: 10px;
