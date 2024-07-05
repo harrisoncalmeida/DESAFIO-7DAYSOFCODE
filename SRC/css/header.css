@@ -35,6 +35,7 @@
     font-weight: 500;
     color: var(--cor-secundaria);
     padding: 0 1em;
+    text-decoration: none;
 }
 
 .header-buttons {
