@@ -39,6 +39,7 @@
     color: var(--color-second);
     padding: 0 1em;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .header-buttons {
@@ -76,6 +77,11 @@
 }
 
 .button-register:hover {
+    border-color: var(--color-fifth);
     color: var(--color-third);
-    background: darken(var(--color-third), 10%); /* Exemplo de efeito hover */
+    background: var(--color-fifth);
+}
+
+a:hover {
+    color: var(--color-third);  
 }

@@ -1,11 +1,12 @@
 .footer {
+    background-color: var(--color-gray);
     display: block;
-    margin: 10em 0;
 }
 
 .title-footer {
     display: flex;
     justify-content: center;
+    padding-top: 2em;
     font-family: var(--soucer-first);
     font-size: 36px;
     font-weight: 600;
@@ -58,7 +59,8 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--color-second);
-    padding: 2em 0;
+    padding-top: 2em;
+    padding-bottom: 4em;
 }
 
 .input-footer:focus, .button-footer:focus {
@@ -72,6 +74,7 @@
 }
 
 .button-footer:hover {
-    background-color: var(--color-first);
+    border-color: var(--color-fifth);
     color: var(--color-third);
+    background: var(--color-fifth);
 }
