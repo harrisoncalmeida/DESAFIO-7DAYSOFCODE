@@ -85,3 +85,11 @@
 a:hover {
     color: var(--color-third);  
 }
+
+@media  screen and (max-width: 767px) {
+    .header {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }   
+}

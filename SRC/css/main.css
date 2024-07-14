@@ -201,3 +201,19 @@
     font-weight: 400;
     color: var(--color-second);
 }
+
+@media  screen and (max-width: 767px) {
+    .banner-informative {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-banner {
+        width: 100%;
+    }
+}
