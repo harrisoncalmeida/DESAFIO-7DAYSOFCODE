@@ -203,6 +203,24 @@
 }
 
 @media  screen and (max-width: 767px) {
+    .banner-title {
+        align-items: center;
+        text-align: center;
+        padding: 2.5em 0;
+    }
+
+    .text-about {
+        font-size: 18px;
+    }
+
+    .text-title-about {
+        font-size: 32px;
+    }
+
+    .text-describe {
+        font-size: 14px;
+    }
+
     .banner-informative {
         display: flex;
         flex-direction: column;

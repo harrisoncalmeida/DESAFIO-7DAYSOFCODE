@@ -89,7 +89,8 @@ a:hover {
 @media  screen and (max-width: 767px) {
     .header {
         height: 100%;
+        padding: 1em 0;
         display: flex;
-        justify-content: flex-end;
-    }   
+        justify-content: center;
+    }
 }
