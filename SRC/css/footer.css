@@ -78,3 +78,9 @@
     color: var(--color-third);
     background: var(--color-fifth);
 }
+
+@media  screen and (max-width: 767px) {
+    .footer {
+        width: 20%;
+    }
+}
