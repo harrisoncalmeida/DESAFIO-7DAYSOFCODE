@@ -138,7 +138,7 @@ a:hover {
   .menu-lists {
     width: 24px;
     height: 24px;
-    background-image: url(SRC/img/Menu.svg);
+    background-image: url(img/Menu.svg);
     background-repeat: no-repeat;
     display: inline-block;
     padding-right: 1em;
