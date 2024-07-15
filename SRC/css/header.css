@@ -109,7 +109,10 @@ a:hover {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     background-clip: text;
-    text-transform: uppercase;
+}
+
+.list-menu-enter, .list-menu-register {
+    display: none;
 }
 
 @media  screen and (max-width: 767px) {
