@@ -238,4 +238,56 @@
     .text-title-wave {
         font-size: 18px;
     }
+
+    .banner-informative {
+        flex-wrap: wrap;
+        margin: 0 0;
+    }
+
+    .project-title {
+        font-size: 32px;
+        padding-right: 0;
+    }
+
+    .text-title {
+        font-size: 14px;
+    }
+
+    .text-project {
+        font-size: 12px;
+        margin-bottom: 2em;
+    }
+
+    .wave-button {
+        margin: 0 25%;
+    }
+    
+    .image-banner {
+        padding-top: 2em;
+    }
+
+    .describe-title-main {
+        margin: 0 5%;
+        padding: 1em 0;
+    }
+    
+    .container-describe {
+        margin: 10px 5%;
+        padding: 1em 0;
+    }
+
+    .banner-testimony {
+        margin: 1.5em 5%;
+    }
+
+    .text-testimony {
+        padding-top: 2em;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .title-testimony {
+        font-size: 20px;
+        margin: 0 1em;
+    }
 }
