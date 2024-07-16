@@ -1,4 +1,4 @@
-.login {
+.register {
     background-color: var(--color-third);
     display: flex;
     align-items: center;
@@ -11,11 +11,13 @@
     background-color: rgb(247 246 246);
     padding: 40px;
     border-radius: 10px;
-    width: 280px;
+    width:580px;
+    height: 580px;
 }
 
 .card-header {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding-bottom: 50px;
     opacity: 0.8;
@@ -31,41 +33,57 @@
     margin-left: -5px;
 }
 
-.login-title {
+.header-logo-register {
+    margin: 0 10px;
+}
+
+.register-title {
     font-size: 28px;
     font-weight: 600;
     padding-left: 10px;
 }
 
 .card-content label {
+    display: flex;
+    justify-content: center;
     color: var(--color-black);
-    font-size: 12px;
+    font-size: 16px;
     opacity: 0.8;
 }
 
 .card-content-area {
     display: flex;
-    flex-direction: column;
-    padding: 10px 0;
+    justify-content: flex-start;
 }
 
-.card-content-area input {
-    margin-top: 10px;
-    padding: 0 5px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #0000005b;
-    outline: none;
-    color: #000000a1;
+.birth {
+    display: block;
+}
+
+.card-content-area, .card-content-address, input {
+    border-color: rgba(253, 253, 253, 0.699);
+    border-width: 1px;
+    border-radius: 0.25rem;
+    color: var(--cor-primary);
+    padding: 0.5em 0;
+}
+
+input {
+    margin-right: 1em;
+}
+
+.address {
+    flex-wrap: wrap;
 }
 
 .card-footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-footer .submit{
-    width: 100%;
+    width: 50%;
     height: 40px;
     background-color: var(--color-third);
     border-radius: 10px;
@@ -88,22 +106,4 @@
     opacity: 0.8;
     color: var(--color-black);
     text-decoration: none;
-}
-
-a:hover {
-    color: var(--color-third);
-}
-
-@media screen and (max-width: 676px) {
-    .card-header {
-        padding-left: 50px;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .card-header {
-        padding-left: 50px;
-        justify-content: center;
-    }
 }
