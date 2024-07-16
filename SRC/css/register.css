@@ -46,9 +46,14 @@
 .card-content label {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: var(--color-black);
     font-size: 16px;
-    opacity: 0.8;
+    font-weight: 500;
+}
+
+label {
+    margin: 0.75em 0;
 }
 
 .card-content-area {
@@ -58,6 +63,12 @@
 
 .birth {
     display: block;
+}
+
+.card-content-address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .card-content-area, .card-content-address, input {
@@ -74,6 +85,23 @@ input {
 
 .address {
     flex-wrap: wrap;
+}
+
+.input-address {
+    margin: 1em 0.5em;
+}
+
+.input-name {
+    margin-left: 3em;
+}
+
+.input-number {
+    margin-left: 2em;
+}
+
+.input-birth {
+    margin-left: 0.25em;
+    margin-top: 2em;
 }
 
 .card-footer {
