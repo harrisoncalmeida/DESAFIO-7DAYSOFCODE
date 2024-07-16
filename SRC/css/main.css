@@ -291,3 +291,40 @@
         margin: 0 1em;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .banner-informative {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-title {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .text-title {
+        text-align: center;
+    }
+
+    .text-project {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .wave-button {
+        margin: 0 30%;
+    }
+
+    .image-banner {
+        width: 100%;
+    }
+
+    .describe-title-main {
+        margin: 0 5%;
+    }
+
+    .container-describe {
+        margin: 1em 5%;
+    }
+}
