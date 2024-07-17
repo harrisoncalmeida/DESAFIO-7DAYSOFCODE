@@ -111,11 +111,19 @@ a:hover {
         padding-left: 50px;
         justify-content: center;
     }
+
+    .header-logo {
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .card-header {
         padding-left: 50px;
         justify-content: center;
+    }
+
+    .header-logo {
+        padding-left: 0;
     }
 }
