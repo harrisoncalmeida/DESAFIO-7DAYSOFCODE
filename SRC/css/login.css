@@ -97,6 +97,10 @@ a:hover {
     margin-top: 1em;
 }
 
+.page {
+    margin-top: 1em;
+}
+
 @media screen and (max-width: 676px) {
     .card-header {
         padding-left: 50px;

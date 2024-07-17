@@ -8,59 +8,37 @@
     <link rel="stylesheet" href="./SRC/css/reset.css">
     <link rel="stylesheet" href="./SRC/css/style.css">
     <link rel="stylesheet" href="./SRC/css/register.css">
-    
 
-    <title>OptimusTech Login</title>
+    <title>OptimusTech Cadastro</title>
 </head>
 
 <body>
     <main class="main-register">
-        <div class="register">
+        <div class="register-card">
             <form class="card">
                 <div class="card-header">
-                    <img src="./SRC/img/Logo.svg" alt="Imagem da logo OptimusTech" class="header-logo-register">
-                    <h2 class="register-title">Cadastre-se</h2>
+                    <img src="./SRC/img/Logo.svg" alt="Imagem da logo OptimusTech" class="header-logo">
+                    <h2 class="register-title">Cadastro</h2>
                 </div>
                 <div class="card-content">
                     <div class="card-content-area">
-                        <label for="usuario">Nome completo</label>
-                        <input type="text" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Primeiro nome" class="input-name">                        
-                        <input type="text" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Segundo nome" class="input-name">                        
-                    </div>
-                    <div class="card-content-address">
-                        <div class="card-content address">
-                            <label for="Endereço">Endereço</label>
-                            <input type="text" id="Endereço" autocomplete="off" required maxlength="60" required placeholder="Endereço" class="input-address">                        
-                            <input type="text" id="Linha 2 do endereço" autocomplete="off" required maxlength="60" required placeholder="Linha 2 do endereço" class="input-address">        
-                            <input type="text" id="Cidade" autocomplete="off" required maxlength="60" required placeholder="Cidade" class="input-address">     
-                            <input type="text" id="Estado / Província" autocomplete="off" required maxlength="60" required placeholder="Estado / Província" class="input-address">  
-                            <input type="text" id="CEP" autocomplete="off" required maxlength="60" required placeholder="CEP" class="input-address">     
-                            <input type="text" id="País" autocomplete="off" required maxlength="60" required placeholder="País" class="input-address">
-                        </div>  
+                        <label for="usuario">Seu usuário</label>
+                        <input type="text" id="usuario" autocomplete="off" required maxlength="50" required>
                     </div>
                     <div class="card-content-area">
-                        <label for="usuario">Número de telefone</label>
-                        <input type="text" id="usuario" autocomplete="off" required maxlength="50" required class="input-number" placeholder="(DD)">
-                        <input type="text" id="usuario" autocomplete="off" required maxlength="50" required class="input-number" placeholder="Número">
-                    </div>     
-                    <div class="card-content-area birth">
-                        <label for="usuario">Data de nascimento</label>
-                        <div class="">
-                            <input type="text" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Dia" class="input-birth">
-                            <input type="text" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Mês" class="input-birth">
-                            <input type="text" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Ano" class="input-birth">
-                        </div>
+                        <label for="usuario">Seu e-mail</label>
+                        <input type="text" id="email" autocomplete="off" required maxlength="50" required>
                     </div>
-                    <div class="card-content-area birth">
-                        <label for="usuario">Crie sua senha</label>
-                        <div class="inputs-pass">
-                            <input type="password" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Senha" class="input-pass">
-                            <input type="password" id="usuario" autocomplete="off" required maxlength="50" required placeholder="Confirme a senha" class="input-pass">                    
-                        </div>
+                    <div class="card-content-area">
+                        <label for="password">Sua senha</label>
+                        <input type="password" id="password" autocomplete="off" required maxlength="60" required>
                     </div>
                 </div>
                 <div class="card-footer">
-                    <input type="submit" value="Cadastre-se" class="submit">
+                    <input type="submit" value="Cadastrar" class="submit">
+                    <a href="#" class="recover-password">Esqueceu a senha?</a>
+                    <a href="./login.html" class="register">Já tem conta? Ir para login</a>
+                    <a href="./index.html" class="page">Página inicial</a>
                 </div>
             </form>
         </div>
