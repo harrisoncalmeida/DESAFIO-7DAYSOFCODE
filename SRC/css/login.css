@@ -70,16 +70,15 @@
     background-color: var(--color-third);
     border-radius: 10px;
     border: none;
+    cursor: pointer;
     border-color: var(--color-third);
     color: #e1e1e1;
     margin: 60px 0;
+    font-size: 18px;
 }
 
 .submit:hover {
-    box-shadow: 0 0 30px var(--color-third), 
-                0 0 60px var(--color-third), 
-                0 0 90px var(--color-third), 
-                0 0 120px var(--color-third);
+    background-color: #8e2424e0;
 }
 
 .card-footer a {
@@ -92,6 +91,10 @@
 
 a:hover {
     color: var(--color-third);
+}
+
+.register {
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 676px) {
